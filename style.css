@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+}
+
+.main {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid black;
+    padding: 20px;
+}
+
+.header {
+    background: #b3afaf;
+    padding: 10px;
+}
+
+.heading {
+    font-weight: bolder;
+    font-size: 20px;
+    border-bottom: black solid;
+    padding: 15px;
+    text-align: center;
+}
+
+.main-section {
+    display: flex;
+}
+
+section {
+    margin: 1.5%;
+    border: dotted black;
+    padding: 10px;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background: #eee3c2;
+    padding: 20px;
+}
+
+/* CSS rules for screens up to 480px wide */
+@media screen and (max-width: 541px) {
+
+    .section {
+        flex-direction: column;
+    }
+}
