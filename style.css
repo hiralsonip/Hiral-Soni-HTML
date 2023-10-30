@@ -48,7 +48,7 @@ footer {
 /* CSS rules for screens up to 480px wide */
 @media screen and (max-width: 541px) {
 
-    .section {
+    .main-section {
         flex-direction: column;
     }
 }
